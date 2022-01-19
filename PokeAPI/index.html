@@ -1,91 +1,23 @@
-<!--Medalla Tierra: Busca información de 3 Pokémon distintos en internet. 
-Crea un documento donde muestres lo siguiente (apóyate de las etiquetas vistas hasta ahora):
-Nombre del Pokémon
-Imagen
-Breve Descripción
-Enlace a página de consulta. -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medalla tierra</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeAPI and Fetch</title>
 </head>
 <body>
-    <h1 style="text-align: center";> Pokémones</h1>
-    <h2 style="text-align: center";> Charmander</h2>
-    <p>
-        Charmander es un Pokémon de tipo fuego introducido en la primera generación. 
-        Es uno de los Pokémon iniciales que pueden elegir los entrenadores que empiezan 
-        su aventura en la región Kanto, junto a Bulbasaur y Squirtle, excepto en Pokémon Amarillo 
-        y Pokémon: Let's Go, Pikachu! y Pokémon: Let's Go, Eevee!
-    </p>
-    <center>
-        <img 
-            src="https://areajugones.sport.es/wp-content/uploads/2019/11/Pokemon-Espada-y-Escudo-Charmander.jpg" 
-            alt="foto charmander"
-            width="800"
-        >
-        </center>
-    <p style="text-align: center";>Si te gustó,
-        <a 
-            href="https://pokemon.fandom.com/es/wiki/Charmander"
-            target="_blank"
-        >
-        <strong>
-            da click aquí.
-        </strong>
-        </a> 
-    </p>
-    
-    <h2 style="text-align: center";> Charizard</h2>
-    <p>
-        Charizard es un Pokémon de tipo fuego/volador, introducido en la primera generación. 
-        Es la evolución de Charmeleon y, a partir de la sexta generación, puede megaevolucionar 
-        en Mega-Charizard X o en Mega-Charizard Y. En la Octava generación puede realizar Gigamax 
-        y transformarse en Charizard Gigamax.
-    </p>
-    <center>
-        <img 
-            src="https://9to5fortnite.com/wp-content/uploads/2021/08/pokemon-charizard-fairy-type-fanart.jpg" 
-            alt="foto charizard"
-            width="700"
-        >
-        </center>
-    <p style="text-align: center";>Si te gustó,
-        <a 
-            href="https://pokemon.fandom.com/es/wiki/Charizard"
-            target="_blank"
-        >
-        <strong>
-            da click aquí.
-        </strong>
-        </a> 
-    </p>
+  <div style="display: flex; justify-content: center;">
+    <div style="width: 60vw;">
+      <div id="poke1"></div>
+      <hr>
+      <div id="poke2"></div>
+      <hr>
+      <div id="poke3"></div>
+      <hr>
+    </div>
+  </div>
 
-    <h2 style="text-align: center";> Venusaur</h2>
-    <p>
-        Venusaur es un Pokémon de tipo planta/veneno introducido en la primera generación. 
-        Es la evolución de Ivysaur y, a partir de la sexta generación, puede megaevolucionar 
-        en Mega-Venusaur.
-    </p>
-    <center>
-        <img 
-            src="https://i2.wp.com/www.korosenai.es/wp-content/uploads/2019/06/mega-venusaur-pokemon.jpg?fit=640%2C480&ssl=1" 
-            alt="foto venusaur"
-            width="700"
-        >
-        </center>
-    <p style="text-align: center";>Si te gustó,
-        <a 
-            href="https://pokemon.fandom.com/es/wiki/Venusaur"
-            target="_blank"
-        >
-        <strong>
-            da click aquí.
-        </strong>
-        </a> 
-    </p>
+  <script src="main.js"></script>
 </body>
 </html>
